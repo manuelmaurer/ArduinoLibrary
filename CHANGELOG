@@ -2,5 +2,10 @@ ArduinoLibrary
 - an core library for the arduino boards
 #############################
 
+Release v1.1 / 10.03.2016
+- Added ArduinoNano (2.3 and 3.0) as configuration
+- changed configuration to defined numbers instead of strings
+- added released binary versions
+
 Release v1.0 / 06.03.2016
 - Initial release

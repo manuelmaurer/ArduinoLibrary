@@ -19,6 +19,14 @@
                     <name>ArduinoMini</name>
                     <type>3</type>
                 </confElem>
+                <confElem>
+                    <name>ArduinoNano23</name>
+                    <type>3</type>
+                </confElem>
+                <confElem>
+                    <name>ArduinoNano30</name>
+                    <type>3</type>
+                </confElem>
             </confList>
             <formatting>
                 <project-formatting-style>false</project-formatting-style>
