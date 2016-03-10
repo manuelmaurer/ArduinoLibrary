@@ -6,6 +6,7 @@
       <itemPath>local/ArduinoMini.h</itemPath>
       <itemPath>local/ArduinoNano.h</itemPath>
       <itemPath>local/config.h</itemPath>
+      <itemPath>local/pins.h</itemPath>
     </logicalFolder>
     <logicalFolder name="HeaderFiles"
                    displayName="Upstream_Headers"
@@ -114,6 +115,8 @@
       <item path="local/ArduinoNano.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="local/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="local/pins.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/cores/arduino/Arduino.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -266,6 +269,8 @@
       </item>
       <item path="local/config.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="local/pins.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="src/cores/arduino/Arduino.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/cores/arduino/CDC.cpp" ex="false" tool="1" flavor2="8">
@@ -417,6 +422,8 @@
       </item>
       <item path="local/config.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="local/pins.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="src/cores/arduino/Arduino.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/cores/arduino/CDC.cpp" ex="false" tool="1" flavor2="8">
@@ -567,6 +574,8 @@
       <item path="local/ArduinoNano.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="local/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="local/pins.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/cores/arduino/Arduino.h" ex="false" tool="3" flavor2="0">
       </item>

@@ -1,15 +1,23 @@
 diff -Naur upstream/hardware/arduino/avr/cores/arduino/Arduino.h src/cores/arduino/Arduino.h
---- upstream/hardware/arduino/avr/cores/arduino/Arduino.h	2016-03-06 11:05:12.109765121 +0100
-+++ src/cores/arduino/Arduino.h	2016-03-06 11:31:45.155538794 +0100
+--- upstream/hardware/arduino/avr/cores/arduino/Arduino.h       Thu Mar 10 13:36:00 2016
++++ src/cores/arduino/Arduino.h Thu Mar 10 13:36:29 2016
 @@ -20,6 +20,8 @@
  #ifndef Arduino_h
  #define Arduino_h
- 
+
 +#include "../../../local/config.h"
 +
  #include <stdlib.h>
  #include <stdbool.h>
  #include <string.h>
+@@ -246,6 +248,6 @@
+
+ #endif
+
+-#include "pins_arduino.h"
++#include "../../../local/pins.h"
+
+ #endif
 diff -Naur upstream/hardware/arduino/avr/cores/arduino/IPAddress.cpp src/cores/arduino/IPAddress.cpp
 --- upstream/hardware/arduino/avr/cores/arduino/IPAddress.cpp	2016-03-06 11:05:12.109765121 +0100
 +++ src/cores/arduino/IPAddress.cpp	2016-03-06 11:30:48.685271365 +0100
